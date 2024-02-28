@@ -1,4 +1,4 @@
-# PyCon 2024 US -- The Fundamentals of Modern Deep Learning with PyTorch
+# PyCon US 2024 -- The Fundamentals of Modern Deep Learning with PyTorch
 Tutorial materials for **The Fundamentals of Modern Deep Learning with PyTorch**
 
 <br>
