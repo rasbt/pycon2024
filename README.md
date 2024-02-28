@@ -8,7 +8,7 @@ Tutorial materials for **The Fundamentals of Modern Deep Learning with PyTorch**
 
 May 15/16, 2024 in Pitsburgh at the [PyCon 2024](https://us.pycon.org/2024/).
 
-<img src="https://sebastianraschka.com/images/talks/2024-pycon-cover.webp" size)
+<img src="https://sebastianraschka.com/images/talks/2024-pycon-cover.webp" width=600>
 
 I’ll be giving a 3.5 hour deep learning workshop at PyCon 2024 in May. This tutorial is aimed at Python
 
