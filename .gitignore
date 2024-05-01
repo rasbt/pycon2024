@@ -1,3 +1,15 @@
+# Temporary files
+old
+
+# Solution files
+solution
+**/solution
+
+
+# Large slide files
+*.key
+*.pdf
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

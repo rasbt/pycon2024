@@ -1,0 +1,2 @@
+tiktoken >= 0.6      # tokenizer
+tensorflow >= 2.16.1 # weight loading
