@@ -13,25 +13,25 @@ from local_utilities import get_dataloaders_cifar10
 class PyTorchCNN(torch.nn.Module):
     def __init__(self, num_classes):
         super().__init__()
-        
+
         self.cnn_layers = torch.nn.Sequential(
 
             torch.nn.Conv2d(3, 6, kernel_size=5),
             torch.nn.BatchNorm2d(6),
             torch.nn.ReLU(),
             torch.nn.MaxPool2d(kernel_size=2),
-            
+
             torch.nn.Conv2d(6, 16, kernel_size=3),
             torch.nn.BatchNorm2d(16),
             torch.nn.ReLU(),
-            torch.nn.MaxPool2d(kernel_size=2),        
-            
+            torch.nn.MaxPool2d(kernel_size=2),
+
             torch.nn.Conv2d(16, 32, kernel_size=3),
             torch.nn.BatchNorm2d(32),
             torch.nn.ReLU(),
-            torch.nn.MaxPool2d(kernel_size=2), 
+            torch.nn.MaxPool2d(kernel_size=2),
         )
-        
+
         self.fc_layers = torch.nn.Sequential(
             # hidden layer
             torch.nn.Linear(128, 64),
@@ -61,11 +61,11 @@ def train(num_epochs, model, optimizer, scheduler, train_loader, val_loader, dev
 
             features = features.to(device)
             targets = targets.to(device)
-            
-            ### FORWARD AND BACK PROP   
+
+            ### FORWARD AND BACK PROP
             logits = model(features)
             loss = F.cross_entropy(logits, targets)
-            
+
             optimizer.zero_grad()
             loss.backward()
 
@@ -110,18 +110,14 @@ if __name__ == "__main__":
     ### 1 Loading the Dataset
     ##########################
 
-
-    ############################################################
-    #### YOUR CODE BELOW: Resize images
-    ############################################################
     train_transforms = transforms.Compose([transforms.Resize((32, 32)),
                                            transforms.ToTensor()])
-    
+
     test_transforms = transforms.Compose([transforms.Resize((32, 32)),
                                           transforms.ToTensor()])
-    
+
     ############################################################
-    
+
     train_loader, val_loader, test_loader = get_dataloaders_cifar10(
         batch_size=64,
         num_workers=3,
@@ -174,7 +170,7 @@ if __name__ == "__main__":
     #########################################
     ### 4 Evaluation
     #########################################
-    
+
     with torch.no_grad():
         model.eval()
         test_acc = torchmetrics.Accuracy(task="multiclass", num_classes=10).to(device)
