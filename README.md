@@ -12,17 +12,18 @@ At [PyCon 2024](https://us.pycon.org/2024/) in Pittsburgh, Pennsylvania
 
 I’ll be giving a 3.5 hour deep learning workshop at PyCon 2024 in May. **It’s my first PyCon, and I’m very excited!**
 
+&nbsp;
 ### Target audience
 
 This tutorial is aimed at Python programmers new to PyTorch and deep learning. However, even more experienced deep learning practitioners and PyTorch users may be exposed to new concepts and ideas when exploring other open source libraries to extend PyTorch.
 
+&nbsp;
 ### Abstract
 
 We will kick off this tutorial with an introduction to deep learning and highlight its primary strengths and use cases compared to traditional machine learning. In recent years, PyTorch has emerged as the most widely used deep learning library for research. However, a lot has changed regarding how we train neural networks these days. After getting a firm grasp of the PyTorch API, you will learn how to train deep neural networks using various multi-GPU training paradigms. We will also fine-tune large language models (transformers)!
 
-### Preparation
-
 &nbsp;
+### Preparation
 
 > [!TIP]
 > A reproducible cloud environment will be shared with participants on the day of the workshop, so no setup steps are required. However, this document provides suggestions for those who wish to install the dependencies locally on their own machines.
