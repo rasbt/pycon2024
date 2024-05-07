@@ -46,14 +46,11 @@ PS: If you have any questions, please feel free to reach out via the [Discussion
 # Schedule and Slides
 
 1. Introduction to Deep Learning & Setup (9:00 - 9:30 am) [🔗 Slides](https://sebastianraschka.com/pdf/pycon2024/01_intro-to-deeplearning_compressed.pdf)
-2. Understanding the PyTorch API (9:30 - 10:15 am) [🔗 Slides](https://sebastianraschka.com/pdf/pycon2024/02_pytorch-api_compressed.pdf)
+2. Understanding the PyTorch API (9:30 - 10:00 am) [🔗 Slides](https://sebastianraschka.com/pdf/pycon2024/02_pytorch-api_compressed.pdf)
 
-**10 Min Break**
+**10:30 - 11:00 am: PyCon coffee and snack break**
 
-3. Training Deep Neural Networks (10:55 - 11:25 am) [🔗 Slides](https://sebastianraschka.com/pdf/pycon2024/03_training-dnns_compressed.pdf)
-4. Accelerating PyTorch Model Training (11:20 am - 12:00 pm) [🔗 Slides](https://sebastianraschka.com/pdf/pycon2024/04-accelerating-pytorch_compressed.pdf)
-
-**10 Min Break**
-
+3. Training Deep Neural Networks (11:00 - 11:30 am) [🔗 Slides](https://sebastianraschka.com/pdf/pycon2024/03_training-dnns_compressed.pdf)
+4. Accelerating PyTorch Model Training (11:30 am - 12:00 pm) [🔗 Slides](https://sebastianraschka.com/pdf/pycon2024/04-accelerating-pytorch_compressed.pdf)
 5. Finetuning Large Language Models (12:00 - 12:30 pm) [🔗 Slides](https://sebastianraschka.com/pdf/pycon2024/05_finetuning-llms_compressed.pdf)
 
