@@ -1,6 +1,6 @@
 # PyCon2024 Workshop
 
-## 4) Training Deep Neural Networks
+## 4) Accelerating PyTorch Model Training
 
 [🔗 Slides](https://sebastianraschka.com/pdf/pycon2024/04-accelerating-pytorch_compressed.pdf)
 
