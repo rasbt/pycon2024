@@ -1,6 +1,12 @@
 # PyCon US 2024: The Fundamentals of Modern Deep Learning with PyTorch
 Tutorial materials for **The Fundamentals of Modern Deep Learning with PyTorch**
 
+<a target="_blank" href="https://lightning.ai/lightning-ai/studios/dl-pycon2024">
+  <img src="https://pl-bolts-doc-images.s3.us-east-2.amazonaws.com/app-2/studio-badge.svg" alt="Open In Studio"/>
+</a>
+
+<br>
+<br>
 <br>
 <br>
 
