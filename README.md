@@ -4,7 +4,7 @@ Tutorial materials for **The Fundamentals of Modern Deep Learning with PyTorch**
 <br>
 <br>
 
-At [PyCon 2024](https://us.pycon.org/2024/) in Pittsburgh, Pennsylvania
+At [PyCon US 2024](https://us.pycon.org/2024/) in Pittsburgh, Pennsylvania
 
 **Wed 15 May 2024, 9:00 am to 12:30 pm (EDT), Room 321**
 
