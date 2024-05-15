@@ -1,9 +1,11 @@
+.DS_Store
+
 # Temporary files
 old
 
 # Solution files
-solution
-**/solution
+# solution
+# **/solution
 
 
 # Large slide files
