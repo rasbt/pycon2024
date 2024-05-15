@@ -2,7 +2,7 @@
 
 ## 2) Understanding the PyTorch API
 
-[🔗 Slides](https://sebastianraschka.com/pdf/pycon2024/01_intro-to-deeplearning_compressed.pdf)
+[🔗 Slides](https://sebastianraschka.com/pdf/pycon2024/02_pytorch-api_compressed.pdf)
 
 
 
